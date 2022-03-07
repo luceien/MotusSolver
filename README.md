@@ -7,7 +7,7 @@ The goal of this program is to find the word as quickly as possible on [Motus](h
 ***
 
 
-#**History**
+# **History**
 
 This online game is inspired by the **TV game Motus**, itself inspired by *Lingo*, the American version created by *Ralph Andrews* and broadcast since September 28, 1987 in the USA and Canada.
 
@@ -15,7 +15,7 @@ This online game is inspired by the **TV game Motus**, itself inspired by *Lingo
 ***
 
 
-#**Rules**
+# **Rules**
 
 The game is based on **finding words with a fixed number of letters**, here 8. 
 The player must propose a word within a maximum of eight seconds and must spell it out. The word must contain the correct number of letters and **be spelled correctly**, otherwise it is rejected. The word then appears on a grid: the letters present and well placed are **colored in red**, the letters present but badly placed are **circled in yellow**. For a letter, you can only have the number of occurrences of this letter in the word colored (either in yellow or in red if some are well placed).
@@ -24,7 +24,8 @@ The player must propose a word within a maximum of eight seconds and must spell 
 ***
 
 
-#**How my algo works**
+
+# **How my algo works**
 
 I use a txt file containing more than **40 000 French words** of *exactly 8 letters*, it contains nouns, adverbs but also the conjugations of verbs (*manger : mangeions, mangerez, mangeais, etc*). 
 
@@ -35,7 +36,7 @@ I iterate in this way until I find (or not) the **correct word**.
 
 
 
-##Example
+# Example
 
 
 ![Alt Text](https://github.com/luceien/MotusSolver/blob/main/motus_cropped_speed.gif)
